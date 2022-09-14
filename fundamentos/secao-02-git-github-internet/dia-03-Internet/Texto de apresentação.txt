@@ -1,0 +1,11 @@
+#Texto para a apresentação da dinâmica do Post It. 
+
+O usuário por meio do cliente (navegador) faz uma solicitação utilizando os 
+protocolos HTTP e TCP/IP o sinal passa pelo roteador e pelo ISP (provedor de 
+internet) e chega até o servidor, antes passando pelo balanceador de carga 
+para evitar uma sobrecarga sobre o servidor. O servidor vai guardar, processar 
+e entregar o resultado. Se ele encontrar o resultado retorna o código de status
+200 mais a resposta, se não encontrar retorna o código 404. A resposta realiza
+o caminho contrário respeitando os protocolos HTTP, TCP/IP, passando pelo ISP e
+roteador. E esses dados são interpretados pela engine renderização e é 
+apresentado ao usuário.

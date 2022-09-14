@@ -1,0 +1,4 @@
+'Estou com fome'
+'O sol saiu'
+'Leia o livro'
+

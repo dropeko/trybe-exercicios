@@ -1,0 +1,8 @@
+Internet
+Unix
+Bash
+Git 
+GitHub 
+VsCode 
+Comandos Input 
+Commandos Output
