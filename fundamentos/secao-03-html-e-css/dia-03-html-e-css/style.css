@@ -1,0 +1,14 @@
+
+body{
+    background-color: chocolate;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-size: 16px;
+}
+#aprendizados{
+    background-color: aliceblue;
+}
+.lista{
+    text-align: center;
+}
