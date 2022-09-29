@@ -17,3 +17,23 @@ function mudaP(paragraph){
 mudaP('p');
 
 // 2. Crie e execute uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
+function changeColor(element, color) {
+    document.getElementById(element).style.backgroundColor = color;
+  }
+changeColor('mainC', 'rgb(76,164,109)');
+
+// 3. Crie e execute uma função que mude a cor do quadrado vermelho para branco.
+function corQuad(element, color){
+    document.getElementById(element).style.backgroundColor = color;
+}
+corQuad('centerC', 'white');
+
+// 4. Crie e execute uma função que corrija o texto da tag <h1>.
+function corrigeTxt(element){
+    document.getElementById(element).innerText = 'Exercício - JavaScript + HTML + CSS'
+}
+
+corrigeTxt('titulo');
+
+//
+

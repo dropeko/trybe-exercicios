@@ -5,10 +5,11 @@
 
     .title {
       text-align: center;
+      background-color: darkgreen;
     }
 
     .main-content {
-      background-color: yellow;
+      background-color: rgb(255, 255, 0);
     }
 
     .center-content {
@@ -19,4 +20,9 @@
 
     .center-content p {
       font-style: italic;
+    }
+
+    footer {
+        text-align: center;
+        background-color: rgb(91, 248, 18);
     }
