@@ -32,8 +32,17 @@ corQuad('centerC', 'white');
 function corrigeTxt(element){
     document.getElementById(element).innerText = 'Exercício - JavaScript + HTML + CSS'
 }
-
 corrigeTxt('titulo');
 
-//
+// 5. Crie e execute uma função que modifique o texto da primeira tag <p> para maiúsculo.
+function upperText(string){
+    title = 'Texto padrão do nosso site'
+   document.getElementById(string).innerHTML = title.toUpperCase();
+}
+upperText('primeiroP');
 
+// 6. Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
+function exibeTag(tag){
+    console.log(document.getElementsByTagName(tag));
+}
+exibeTag('p')
