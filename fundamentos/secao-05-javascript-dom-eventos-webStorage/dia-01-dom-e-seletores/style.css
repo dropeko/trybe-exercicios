@@ -1,0 +1,22 @@
+    main, section {
+      border-color: black;
+      border-style: solid;
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    .main-content {
+      background-color: yellow;
+    }
+
+    .center-content {
+      background-color: rgba(43, 117, 49, 0.589);
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    .center-content p {
+      font-style: italic;
+    }
