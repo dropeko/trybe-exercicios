@@ -3,6 +3,10 @@ section {
   border-style: solid;
 }
 
+h1 {
+    text-align: center;
+}
+
 .title {
   text-align: center;
 }
