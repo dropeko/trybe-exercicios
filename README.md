@@ -38,9 +38,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ :white_check_mark: ] 4-5: Projeto - Playground Functions
 
 #### Bloco : JavaScript - DOM, Eventos, Web Storage
-- [  ] 5-1: JavaScript - DOM e Seletores
-- [  ] 5-2: JavaScript - Trabalhando com Elementos
-- [  ] 5-3: JavaScript - Eventos
-- [  ] 5-4: JavaScript - Web Storage
+- [ :white_check_mark: ] 5-1: JavaScript - DOM e Seletores
+- [ :white_check_mark: ] 5-2: JavaScript - Trabalhando com Elementos
+- [ :white_check_mark: ] 5-3: JavaScript - Eventos
+- [ :white_check_mark: ] 5-4: JavaScript - Web Storage
 - [  ] 5-5: Projeto - Arte com Pixels
 - [  ] 5-6: Projeto Bônus
