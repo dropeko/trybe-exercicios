@@ -1,0 +1,32 @@
+body {
+    background-color: #034422;
+}
+
+header {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: 3px solid rgb(69, 168, 12);
+    padding: auto;
+    text-align: center;
+    background-color: #E1F2D5;
+    color: rgb(30, 192, 116);
+    border-radius: 30px;
+}
+
+form {
+    border: 3px solid rgb(69, 168, 12)   ;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #E1F2D5;
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E1F2D5;
+    text-align: center;
+}

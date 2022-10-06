@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TrybeTrip Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>TrybeTrip</h1>
     </header>
     <form action="" method="get">
+        <br>
+        <h3>Informações pessoais:</h3>
         <label for="inputName">Nome:
             <input type="text" id="inputName" name="name" placeholder="Insira seu nome" required>
         </label>
@@ -21,6 +24,7 @@
         </label>
         <br>
         <br>
+        <h3>Destino favorito:</h3>
         <label for="city">
             <input type="radio" name="destPref" id="city">Cidade
         </label>
@@ -33,7 +37,38 @@
         <label for="mountain">
             <input type="radio" name="destPref" id="mountain">Montanha
         </label>
-
+        <br>
+        <br>
+        <label for="trip-description">
+            <h3>Porque você deveria ganhar a viagem:</h3>
+            <textarea name="trip-description" id="trip-description" cols="30" rows="10"></textarea>
+        </label>
+        <br>
+        <br>
+        <label for="tripDate">Qual a melhor data para a viagem: 
+            <input type="date" name="data-viagem" id="tripDate">
+        </label>
+        <br>
+        <br>
+        <label for="oportunidades">Gostaria de receber outras oportunidades incriveis oferecidas pela Trybe?: 
+            <input type="checkbox" name="oportunidades" id="oportunidades">
+        </label>
+        <br>
+        <br>
+        <label for="termoDeAcordo">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros: 
+            <input type="checkbox" name="termoDeAcordo" id="termoDeAcordo">
+        </label>
+        <br>
+        <br>
+        <button type="submit" id="send-button">Enviar</button>
+        <br>
     </form>
+    <br>
+    <footer>
+        <span>
+            Carinhosamente desenvolvido por @PedroAndrade &copy;
+        </span>
+    </footer>
+    <script src="/scripts.js"></script>
 </body>
 </html>
