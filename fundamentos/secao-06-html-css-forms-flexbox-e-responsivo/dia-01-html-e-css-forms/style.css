@@ -16,7 +16,8 @@ header {
 }
 
 form {
-    border: 3px solid rgb(69, 168, 12)   ;
+    border-radius: 10px;
+    border: 3px solid rgb(69, 168, 12);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
