@@ -17,3 +17,48 @@
   width: 25px;
   margin-left: 10px;
 }
+
+.header-container {
+  padding: 10px 0;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(29, 28, 28);
+  color: aliceblue;
+}
+
+.description-section {
+  display: flex;
+  justify-content: center;
+}
+
+.images-container {
+  margin-top: 15px;
+background-color: darkgray;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.images-section {
+  display: flex ;
+  justify-content: space-between;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.tech-item {
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: rgb(227, 231, 231);
+  border-radius: 5%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  background-color: whitesmoke;
+}
