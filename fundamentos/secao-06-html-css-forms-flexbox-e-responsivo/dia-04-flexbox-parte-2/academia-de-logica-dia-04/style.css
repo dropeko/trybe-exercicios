@@ -1,0 +1,94 @@
+*{
+    padding: 0%;
+    margin: 0%;
+  }
+
+  body{
+    text-align: center;
+    background-color: rgb(95, 177, 156);
+  }
+
+  main{
+    display: flex;
+    border: black solid 1px;
+    padding: 30px;
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header-trybe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 130px;
+    border: black 1px solid;
+    margin-bottom: 25px;
+    width: 83.6%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: white;
+    color:  rgb(95, 177, 156);
+    justify-items: center;
+  }
+
+  .header-trybe img{
+    margin-top: 12px;
+    height: 70px;
+  }
+
+  .form-section {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+  }
+
+  .hotel-form, .list-section {
+    margin: 25px;
+    color: rgb(73, 73, 73);
+    font-size: 25px;
+    background-color: white;
+  }
+
+  button{
+    width: 30%;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: rgb(95, 177, 156);
+    border-radius: 5px;
+    color: white;
+  }
+
+  li{
+    text-align: left;
+    margin-bottom: 5px;
+    padding:10px;
+    font-size:25px;
+    border: black 1px solid;
+  }
+
+  ol{
+    display: inline-block;
+    list-style-type: none;
+    margin-top:15px;
+    width: 90%;
+  }
+
+  textarea{
+    box-sizing: content-box;
+    padding: 10px;
+  }
+
+  h2 {
+    text-align: left;
+    margin-left: 22px;
+  }
