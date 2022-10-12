@@ -28,10 +28,18 @@
 - [ :white_check_mark: ] 4-4: JavaScript - Objetos e funções
 - [ :white_check_mark: ] 4-5: Projeto - Playground Functions
 
-#### Bloco : JavaScript - DOM, Eventos, Web Storage
+#### Bloco 5 : JavaScript - DOM, Eventos, Web Storage
 - [ :white_check_mark: ] 5-1: JavaScript - DOM e Seletores
 - [ :white_check_mark: ] 5-2: JavaScript - Trabalhando com Elementos
 - [ :white_check_mark: ] 5-3: JavaScript - Eventos
 - [ :white_check_mark: ] 5-4: JavaScript - Web Storage
-- [  ] 5-5: Projeto - Arte com Pixels
-- [  ] 5-6: Projeto Bônus
+- [ :white_check_mark: ] 5-5: Projeto - Arte com Pixels
+- [ :white_check_mark: ] 5-6: Projeto Bônus
+
+#### Bloco 6 : HTML e CSS: Forms, Flexbox e Responsivo
+- [ :white_check_mark: ] 6-1: HTML & CSS - Forms
+- [ :white_check_mark: ] 6-2: Bibliotecas JavaScript e Frameworks CSS
+- [ :white_check_mark: ] 6-3: CSS - FlexBox Parte 1
+- [ :white_check_mark: ] 6-4: CSS - FlexBox Parte 2
+- [ ] 6-5: CSS Responsivo - Mobile First
+- [ ] 6-6: Projeto TrybeWarts
