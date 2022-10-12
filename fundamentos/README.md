@@ -1,11 +1,37 @@
-# Fundamentos do Desenvolvimento Web
 
-Nesse módulo: 
+## Fundamentos do Desenvolvimento Web :white_check_mark:
 
-- 'Unix & Bash': utilizar comandos no terminal para criar arquivos e diretórios, comandos de input e output, alterar permissões e acompanhar processos.
+##### Bloco 1: Introdução - Unix & Shell
 
-- 'Git e GitHub': instalar e configurar o Git no computador, salvar meus projetos em um repositório Git local, controlar as alterações e versões dos meus arquivos. Com o GitHub aprendi a copiar um repositório existente para o meu computador, abrir Pull requests, subir o repositório local para o GitHub, enviar projetos para o repositório remoto. E dessa forma trabalhar em um mesmo projeto, com mais de uma pessoa.
+- [ :white_check_mark: ] 1-3: _Unix & Shell- Part 1_
+- [ :white_check_mark: ] 1-4: _Unix & Shell- Part 2_
 
-- 'Internet': explicar de forma simples como a internet funciona, entender o modelo cliente & servidor e identificar suas partes, compreender como funcionam os protocolos HTTP e HTTPS, além de identificar os tipos de requisições.
+##### Bloco 2: Git & GitHub
 
-- Tendo isso em mente, esta pasta contém todas as atividades de aprendizagem que desenvolvi ao longo do módulo de Fundamentos do Desenvolvimento Web do curso da Trybe.
+- [ :white_check_mark: ] 2-1: _O que é e para que serve?_
+- [ :white_check_mark: ] 2-2: _Entendendo os comandos_
+- [ :white_check_mark: ] 2-3: _Internet - Entendendo como ela funciona_
+
+#### Bloco 3: Introdução à HTML e CSS
+
+- [ :white_check_mark: ] 3-1: Introdução - HTML e CSS
+- [ :white_check_mark: ] 3-1: HTML & CSS: Estruturas de página
+- [ :white_check_mark: ] 3-2: HTML & CSS: Primeiros passos em CSS
+- [ :white_check_mark: ] 3-3: HTML & CSS: Seletores e posiconamento
+- [ :white_check_mark: ] 3-4: HTML Semântico
+- [ :white_check_mark: ] 3-5: Projeto - Lessions Learned
+
+#### Bloco 4: Introdução à JavaScript
+- [ :white_check_mark: ] 4-1: JavaScript - Primeiros Passos
+- [ :white_check_mark: ] 4-2: JavaScript - Array e loop For
+- [ :white_check_mark: ] 4-3: JavaScript - Lógica de Programação e Algoritmos
+- [ :white_check_mark: ] 4-4: JavaScript - Objetos e funções
+- [ :white_check_mark: ] 4-5: Projeto - Playground Functions
+
+#### Bloco : JavaScript - DOM, Eventos, Web Storage
+- [ :white_check_mark: ] 5-1: JavaScript - DOM e Seletores
+- [ :white_check_mark: ] 5-2: JavaScript - Trabalhando com Elementos
+- [ :white_check_mark: ] 5-3: JavaScript - Eventos
+- [ :white_check_mark: ] 5-4: JavaScript - Web Storage
+- [  ] 5-5: Projeto - Arte com Pixels
+- [  ] 5-6: Projeto Bônus
