@@ -12,7 +12,21 @@
   .header-container {
     background-color: #5C687C;
     display: flex;
+    align-items: center;
   }
+
+  .header-container nav:nth-child(1) {
+    background-color: #5C687C;
+    display: flex;
+    flex-grow: 1;
+  }
+
+  .logo {
+    display: flex;  
+    justify-content: flex-end;
+    order: -1;
+    padding: 10px 10px;
+}
 
   .logo-container {
     display: flex;
@@ -21,7 +35,8 @@
   
   .menu-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: stretch;
+    padding: 10px;
   }
   
   .menu-container ul {
@@ -35,5 +50,52 @@
     font-weight: 500;
     font-size: 1.3rem;
     list-style: none;
-    margin-right: 10px;
+    margin-right: 20px;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .movie-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .movie-container h2 {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card-container div {
+    align-items: center;
+    background-color: #5C687C;
+    border: black solid 1px;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .aside-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  
+  .aside-container h3, h4 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .aside-container p {
+    margin: 10px 0;
+    text-align: justify;
   }
