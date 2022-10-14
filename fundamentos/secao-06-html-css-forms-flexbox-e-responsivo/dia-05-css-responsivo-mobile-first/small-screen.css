@@ -11,23 +11,30 @@
   }
   
   body {
+    font-size: 20px;
   
   }
   
   article {
+    text-align: center;
   
   }
   
   h1 {
-  
+    text-align: center;
+    font-size: xx-large; 
   }
   
   h2 {
-  
+    text-align: center;
   }
   
   img {
       max-width: 100%;
+  }
+
+  figure {
+    padding-bottom: 15px;
   }
   
   main {
