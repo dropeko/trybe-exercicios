@@ -72,6 +72,10 @@
         background-color: aliceblue;
         font-size: xx-large;
       }
+    
+    figcaption {
+        font-size: .95em;
+    }  
 
 
   }
