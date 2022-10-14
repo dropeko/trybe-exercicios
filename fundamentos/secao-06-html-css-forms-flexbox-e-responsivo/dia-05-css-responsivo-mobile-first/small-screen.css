@@ -11,7 +11,7 @@
   }
   
   body {
-    font-size: 20px;
+    font-size: 18px;
     margin: 15px;
   
   }
@@ -23,7 +23,7 @@
   
   h1 {
     text-align: center;
-    font-size: xx-large; 
+    font-size: x-large;
   }
   
   h2 {
@@ -53,3 +53,27 @@
   figcaption {
     font-size: .8em;
   }
+
+  @media screen and (min-width: 800px){
+    body {
+        background-color: darkgrey;
+        font-size: 21px;
+    }
+
+    article {
+        background-color: aliceblue;
+      }
+    
+      main {
+        background-color: aliceblue;
+    }
+    
+    h1 {
+        background-color: aliceblue;
+        font-size: xx-large;
+      }
+
+
+  }
+    
+  
