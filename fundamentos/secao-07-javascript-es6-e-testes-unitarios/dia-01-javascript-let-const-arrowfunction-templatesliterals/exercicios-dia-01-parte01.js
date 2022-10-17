@@ -4,7 +4,7 @@
 // Modifique as variáveis para que respeitem o escopo onde estão declaradas;
 // Modifique as concatenações para template literals.
 
-function testingScope(escopo) {
+const testingScope = (escopo) => {
   if (escopo === true) {
     let ifScope = 'Não devo ser utilizada fora do meu escopo (if)';
     ifScope = ifScope + ' ótimo, fui utilizada no escopo !';
@@ -14,4 +14,5 @@ function testingScope(escopo) {
     console.log(elseScope);
   }
 }
+
 testingScope(true);
