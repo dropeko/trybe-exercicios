@@ -1,4 +1,3 @@
-
 ## Fundamentos do Desenvolvimento Web :white_check_mark:
 
 ##### Bloco 1: Introdução - Unix & Shell
@@ -22,6 +21,7 @@
 - [ :white_check_mark: ] 3-5: Projeto - Lessions Learned
 
 #### Bloco 4: Introdução à JavaScript
+
 - [ :white_check_mark: ] 4-1: JavaScript - Primeiros Passos
 - [ :white_check_mark: ] 4-2: JavaScript - Array e loop For
 - [ :white_check_mark: ] 4-3: JavaScript - Lógica de Programação e Algoritmos
@@ -29,6 +29,7 @@
 - [ :white_check_mark: ] 4-5: Projeto - Playground Functions
 
 #### Bloco 5 : JavaScript - DOM, Eventos, Web Storage
+
 - [ :white_check_mark: ] 5-1: JavaScript - DOM e Seletores
 - [ :white_check_mark: ] 5-2: JavaScript - Trabalhando com Elementos
 - [ :white_check_mark: ] 5-3: JavaScript - Eventos
@@ -37,9 +38,10 @@
 - [ :white_check_mark: ] 5-6: Projeto Bônus
 
 #### Bloco 6 : HTML e CSS: Forms, Flexbox e Responsivo
+
 - [ :white_check_mark: ] 6-1: HTML & CSS - Forms
 - [ :white_check_mark: ] 6-2: Bibliotecas JavaScript e Frameworks CSS
 - [ :white_check_mark: ] 6-3: CSS - FlexBox Parte 1
 - [ :white_check_mark: ] 6-4: CSS - FlexBox Parte 2
-- [] 6-5: CSS Responsivo - Mobile First
-- [] 6-6: Projeto TrybeWarts
+- [ :white_check_mark: ] 6-5: CSS Responsivo - Mobile First
+- [ :white_check_mark: ] 6-6: Projeto TrybeWarts
