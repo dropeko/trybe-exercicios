@@ -5,8 +5,12 @@
 
 const oddsAndEvens = [13, 3, 4, 10, 7, 2];
 
+function compareNums (a, b){
+  return a - b;
+}
+
 const sortOddsAndEvens = () => {
-  let newArray = oddsAndEvens.sort()
+  let newArray = oddsAndEvens.sort(compareNums)
   console.log(newArray);
 }
 
