@@ -15,7 +15,7 @@ function calcularFatorialRecursivamente(num) {
   return num * calcularFatorialRecursivamente (num - 1);
 }
 
-const factorialNum = 4;
+const factorialNum = 5;
 
 let factorial = () => {
   if (isNaN(factorialNum)) {
@@ -33,4 +33,4 @@ if (factorialNum === 0 || factorialNum === 1) {
 return calcularFatorialRecursivamente(factorialNum);
 }
 
-console.log(factorial(5));
+console.log(`Esse é o fatorial de ${factorialNum} :  ${factorial(factorialNum)}!`);
