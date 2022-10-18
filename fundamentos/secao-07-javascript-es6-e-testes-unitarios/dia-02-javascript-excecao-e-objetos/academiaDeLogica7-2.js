@@ -43,3 +43,40 @@ const verificaNome = (name) => {
 }
 
 console.log(verificaNome('Gus'));
+
+// ---------------------------------------------------------------------------------------
+// Escreva uma função que calcule a velocidade final de um objeto em queda livre dado o tempo que levou para atingir o solo. A fórmula para o cálculo é velocidade = tempo * gravidade. Considere a gravidade constante de 9.8.
+
+const calcGrav = (num) => num * 9.8 
+
+console.log(calcGrav(10));
+
+// ---------------------------------------------------------------------------------------
+// Utilizando operadores ternários e arrow functions reescreva a seguinte função:
+// function isZero(number) {
+// 	if (number === 0) {
+// 		return "Zero";
+// 	}
+// 	return "Not zero";
+// }
+
+const isZero = (number) => number === 0 ? 'Zero' : 'Not Zero'
+
+console.log(isZero(5));
+
+// ---------------------------------------------------------------------------------------
+// Escreva uma função que, dado um array, verifique se todos os valores são iguais. Valide que o tipo de entrada seja array e que o tamanho seja maior que 1, e caso a entrada não atenda alguma das condições o retorno deve ser a string "Parâmetro inválido.".
+
+const novoArray = [8, 8, 8, 8, 8]
+
+const verificaArray = (sameArray) => {
+  for (let index = 0; index < sameArray.length; index += 1){
+    for (let index2 = 1; index2 < sameArray.length; index2 += 1){
+      if (sameArray[index] === sameArray[index2]){
+        sameArray[index] = sameArray[index2];
+        let result = true;
+      }
+    }
+  }
+  return result
+}
