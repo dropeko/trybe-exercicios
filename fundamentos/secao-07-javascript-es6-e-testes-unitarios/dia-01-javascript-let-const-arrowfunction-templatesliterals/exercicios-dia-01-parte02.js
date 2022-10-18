@@ -11,7 +11,7 @@ function compareNums (a, b){
 
 const sortOddsAndEvens = () => {
   let newArray = oddsAndEvens.sort(compareNums)
-  console.log(newArray);
+  console.log(`Os números: ${newArray} se encontram em ordem crescente!`);
 }
 
 sortOddsAndEvens();
