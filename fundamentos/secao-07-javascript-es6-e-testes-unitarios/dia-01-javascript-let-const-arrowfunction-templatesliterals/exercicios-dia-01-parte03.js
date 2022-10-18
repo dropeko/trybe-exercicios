@@ -8,7 +8,29 @@
 // Crie a lógica para retornar o fatorial de N!.
 // Imprima no terminal “Esse é o fatorial resultado da função“ (Lembre-se de utilizar template literals nesse momento).
 // Bônus: tente fazer o mesmo exercício de forma recursiva. Spoiler: É possível resolver com uma linha usando ternary operator.
+function calcularFatorialRecursivamente(num) {
+  if (num === 1) {
+    return 1;
+  }  
+  return num * calcularFatorialRecursivamente (num - 1);
+}
+
+const factorialNum = 4;
 
 let factorial = () => {
-  let result = 0;
+  if (isNaN(factorialNum)) {
+    return 'Não existe fatorial de um texto';
 }
+ 
+if (!Number.isInteger(factorialNum) || factorialNum < 0) {
+    return 'Não existe fatorial de um número não natural';
+}
+ 
+if (factorialNum === 0 || factorialNum === 1) {
+    return 1;
+}
+ 
+return calcularFatorialRecursivamente(factorialNum);
+}
+
+console.log(factorial(5));
