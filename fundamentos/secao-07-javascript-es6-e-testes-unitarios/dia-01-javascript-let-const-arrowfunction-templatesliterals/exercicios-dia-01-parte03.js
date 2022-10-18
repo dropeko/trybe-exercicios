@@ -11,5 +11,4 @@
 
 let factorial = () => {
   let result = 0;
-  
 }
