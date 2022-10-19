@@ -1,6 +1,11 @@
 const sum = require('./sum');
 
 describe('Testes realizados com a função sum ->', () => {
+  // Teste mais basico a ser feito. Verificar se existe um função!
+  test('testa se existe a função sum', () => {
+    expect(typeof sum).toBe('function')
+  })
+
   test('testa se 4 + 5 é igual a: 9', () => {
     expect(sum(4, 5)).toBe(9);
   });
