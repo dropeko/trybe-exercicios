@@ -10,4 +10,8 @@ describe('Testes com a função myRemove', () => {
     expect(myRemove([1, 2, 3, 4], 3)).not.toEqual([1, 2, 3, 4]);
   });
 
+  test('Verificar se retorna o array esperado 2', () => {
+    expect(myRemove([1, 2, 3, 4], 5)).toEqual([1, 2, 3, 4])
+  });
+
 });
