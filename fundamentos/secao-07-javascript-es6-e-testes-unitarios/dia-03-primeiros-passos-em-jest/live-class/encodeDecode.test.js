@@ -22,4 +22,8 @@ describe('Testes com as funções encode/decode', () => {
     expect(encodeDecode.encode('aeiou')).not.toBe('aeiou')
   });
 
+  test('Verifica se tem o mesmo tamanho', () => {
+    expect(encodeDecode.encode).toHaveLength(1)
+  });
+
 });
