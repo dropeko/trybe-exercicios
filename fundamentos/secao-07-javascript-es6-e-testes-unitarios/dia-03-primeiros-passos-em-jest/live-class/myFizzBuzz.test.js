@@ -13,5 +13,10 @@ describe('Testes com a função FizzBuzz', () => {
   test('Verifica se é divisivel por 5', () => {
     expect(myFizzBuzz(10)).toBe('buzz')
   });
+
+  test('Verifica se não é divisivel por 5 e nem por 3', () => {
+    expect(myFizzBuzz(17)).toBe(17)
+  });
+  
   
 });
