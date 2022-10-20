@@ -10,4 +10,12 @@ describe('Testes com as funções encode/decode', () => {
     expect(typeof encodeDecode.decode).toBe('function')
   });
 
+  test('Teste se "aeiou" retorna "12345"', () => {
+    expect(encodeDecode.encode('aeiou')).toBe('12345')
+  });
+
+  test('Teste se "12345" retorna "aeiou"', () => {
+    expect(encodeDecode.decode('12345')).toBe('aeiou')
+  });
+
 });
