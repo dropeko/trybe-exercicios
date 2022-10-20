@@ -18,4 +18,8 @@ describe('Testes com as funções encode/decode', () => {
     expect(encodeDecode.decode('12345')).toBe('aeiou')
   });
 
+  test('Teste se "aeiou" retorna "12345"', () => {
+    expect(encodeDecode.encode('aeiou')).not.toBe('aeiou')
+  });
+
 });
