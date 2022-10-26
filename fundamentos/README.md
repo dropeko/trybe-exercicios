@@ -52,3 +52,12 @@
 - [ :white_check_mark: ] 7-2: JavaScript ES6 - Fluxo de exceção e Objetos
 - [ :white_check_mark: ] 7-3: Primeiros passos em Jest
 - [ :white_check_mark: ] 7-4: Projeto - JavaScript Testes Unitários
+
+#### Bloco 8 : Higher Order Functions do JavaScript ES6
+
+- [ :white_check_mark: ] 8-1: JavaScript ES6 - Introdução a Higher Order Functions
+- [ :white_check_mark: ] 8-2: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
+- [ :white_check_mark: ] 8-3: JavaScript ES6 - Higher Order Functions - map e filter
+- [  ] 8-4: JavaScript ES6 - Higher Order Functions - reduce
+- [  ] 8-5: JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+- [  ] 8-6: Projeto Zoo functions
