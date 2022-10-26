@@ -45,3 +45,10 @@
 - [ :white_check_mark: ] 6-4: CSS - FlexBox Parte 2
 - [ :white_check_mark: ] 6-5: CSS Responsivo - Mobile First
 - [ :white_check_mark: ] 6-6: Projeto TrybeWarts
+
+#### Bloco 7 : Introdução à JavaScript e Testes Unitários
+
+- [ :white_check_mark: ] 7-1: JavaScript ES6 - let, const, arrow functions e template literals
+- [ :white_check_mark: ] 7-2: JavaScript ES6 - Fluxo de exceção e Objetos
+- [ :white_check_mark: ] 7-3: Primeiros passos em Jest
+- [ :white_check_mark: ] 7-4: Projeto - JavaScript Testes Unitários
