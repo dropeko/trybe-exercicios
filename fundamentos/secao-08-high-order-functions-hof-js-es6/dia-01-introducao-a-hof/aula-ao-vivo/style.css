@@ -1,0 +1,14 @@
+
+
+img {
+  width: 300px;
+}
+
+body {
+  background-image: url('./images/yugioh.png');
+  background-size: cover;
+}
+
+section {
+  max-width: 1000px;
+}
