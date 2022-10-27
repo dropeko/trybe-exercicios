@@ -1,0 +1,15 @@
+{
+  "name": "dia-03-map-e-filter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "filter1.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.2.2"
+  }
+}
