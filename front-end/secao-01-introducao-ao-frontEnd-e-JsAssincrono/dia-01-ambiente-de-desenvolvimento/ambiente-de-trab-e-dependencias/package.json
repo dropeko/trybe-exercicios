@@ -1,0 +1,17 @@
+{
+  "name": "ambiente-de-trab-e-dependencias",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev":"vite --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.4.2",
+    "vite": "^4.1.1"
+  }
+}
