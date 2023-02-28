@@ -1,17 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import HelloWorld from "./components/HelloWorld";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Hello, World!
-        </p>
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-    </div>
-  );
+  return <HelloWorld />
 }
 
 export default App;
