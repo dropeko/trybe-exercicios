@@ -8,7 +8,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 Ao iniciar este exercício, você concorda com as diretrizes do Código de Conduta e do Manual da Pessoa Estudante da Trybe.
 
-# Entregáveis
+# Entregáveiss
 
 <details>
   <summary><strong>🤷🏽‍♀️ Como entregar</strong></summary><br />
