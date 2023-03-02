@@ -1,25 +1,38 @@
+import React from 'react';
 import './App.css';
 
-function handleClickOne () {
-  console.log('A vida é uma maravilha!!');
-}
 
-function handleClickTwo () {
-  console.log('Work Hard Play Hard!!');
-}
+class App extends React.Component {
 
-function handleClickThree () {
-  console.log('Você pode encontrar as coisas que perdeu, mas nunca as que abandonou!');
-}
+  constructor() {
+    super()
+    this.handleClickOne = this.handleClickOne.bind(this)
+    this.handleClickTwo = this.handleClickTwo.bind(this)
+    this.handleClickThree = this.handleClickThree.bind(this)
+  }
 
-function App() {
-  return (
-    <div className="App">
-      <button onClick={ handleClickOne }>Surprise Button 01</button>
-      <button onClick={ handleClickTwo }>Surprise Button 02</button>
-      <button onClick={ handleClickThree }>Surprise Button 03</button>
+  handleClickOne () {
+    console.log(this);
+    console.log('A vida é uma maravilha!!');
+  }
+  
+  handleClickTwo () {
+    console.log(this);
+    console.log('Work Hard Play Hard!!');
+  }
+  
+  handleClickThree () {
+    console.log(this);
+    console.log('Você pode encontrar as coisas que perdeu, mas nunca as que abandonou!');
+  }
+  
+  render() {
+    return <div className="App">
+      <button onClick={ this.handleClickOne }>Surprise Button 01</button>
+      <button onClick={ this.handleClickTwo }>Surprise Button 02</button>
+      <button onClick={ this.handleClickThree }>Surprise Button 03</button>
     </div>
-  );
-}
+    };
+};
 
 export default App;
