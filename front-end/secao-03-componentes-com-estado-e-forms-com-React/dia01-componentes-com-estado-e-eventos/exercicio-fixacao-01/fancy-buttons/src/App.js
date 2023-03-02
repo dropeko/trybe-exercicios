@@ -22,6 +22,9 @@ class App extends React.Component {
     this.setState((lastState, _props) => ({
       clickNums: lastState.clickNums + 1,
     }))
+    if (this.state.clickNums / 2 !== 0) {
+      console.log('Verde');
+    }
   }
   
   handleClickTwo () {
