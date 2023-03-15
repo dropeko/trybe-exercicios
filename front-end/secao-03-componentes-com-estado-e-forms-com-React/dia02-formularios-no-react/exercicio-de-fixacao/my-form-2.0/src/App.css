@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  border: solid 2px green;
+  border-radius: 10px;
+  margin: 1%;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+label {
+  margin: 4px;
+}
