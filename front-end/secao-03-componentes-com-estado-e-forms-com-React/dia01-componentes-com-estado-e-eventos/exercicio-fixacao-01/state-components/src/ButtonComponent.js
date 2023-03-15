@@ -7,25 +7,35 @@ class ButtonComponent extends React.Component {
     this.click = this.click.bind(this)
     this.click2 = this.click2.bind(this)
     this.click3 = this.click3.bind(this)
+
+    this.state = {
+      numClick01: 0,
+      numClick02: 0,
+      numClick03: 0,
+    }
   }
+
   click() {
-    console.log(this);
-    console.log('Clicou no botão 01');
+    this.setState((lastState, _props) => ({
+      numClick01: lastState.numClick01 + 1
+    }))
   }
   click2() {
-    console.log(this);
-    console.log('Clicou no botão 02');
+    this.setState((lastState, _props) => ({
+      numClick02: lastState.numClick02 + 1 
+    }))
   }
   click3() {
-    console.log(this);
-    console.log('Clicou no botão 03');
+    this.setState((lastState, _props) => ({
+      numClick03: lastState.numClick03 + 1
+    }))
   }
   render() {
     return (
       <>
-        <button onClick={ this.click }>Console Log Button 01</button>
-        <button onClick={ this.click2 }>Console Log Button 02</button>
-        <button onClick={ this.click3 }>Console Log Button 03</button>
+        <button onClick={ this.click }>{ this.state.numClick01 }</button>
+        <button onClick={ this.click2 }>{ this.state.numClick02 }</button>
+        <button onClick={ this.click3 }>{ this.state.numClick03 }</button>
       </>
     )
   }
