@@ -3,6 +3,7 @@ import AddressForm from "./Components/AddressForm";
 import handleValue from "./utils/handleValue";
 import PersonalForm from "./Components/PersonalForm";
 import ProfessionalForm from "./Components/ProfessionalForm";
+import DataDisplay from "./Components/DisplayForm";
 
 class Form extends React.Component {
   constructor() {
@@ -10,8 +11,10 @@ class Form extends React.Component {
 
     this.handleChange = this.handleChange.bind(this);
     this.handleBlur = this.handleBlur.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
 
     this.state = {
+      displayData: false,
       name: '',
       email: '',
       cpf: '',
@@ -46,9 +49,15 @@ class Form extends React.Component {
     }
   }
 
+  handleSubmit (event) {
+    event.preventDefault();
+    this.setState({ displayData: true });
+  }
+
   render() {
+    const { displayData } = this.state;
     return (
-      <form>
+      <form onSubmit={ this.handleSubmit }>
         <PersonalForm
         handleChange={ this.handleChange } 
         name={ this.state.name } 
@@ -64,6 +73,8 @@ class Form extends React.Component {
           onChange={ this.handleChange } 
           formState={ this.state } 
         />
+        <button type="submit">Enviar</button>
+        { displayData && <DataDisplay formState={ this.state } /> }
       </form>
     )
   }
