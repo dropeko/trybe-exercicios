@@ -1,35 +1,42 @@
 import React from "react";
 
-class PersonalData extends React.Component {
+class PersonalForm extends React.Component {
   render() {
+    const { name, email, cpf, handleChange } = this.props
+
     return (
       <fieldset>
       <legend>Dados pessoais</legend>
       <label>
-        Nome:
+        Nome
         <input 
-          id="name"
+          name="name"
           type="text" 
           maxLength="40"
-          required
+          value={ name }
+          onChange= { handleChange }
         />
       </label>
       <label>
-        Email:
+        Email
         <input 
-          id="email"
+          name="email"
           type="email" 
           maxLength="50"
           required
+          value={ email }
+          onChange= { handleChange }
         />
       </label>
       <label>
-        CPF:
+        CPF
         <input 
-          id="cpf"
+          name="cpf"
           type="text"
           maxLength="11"
           required
+          value={ cpf }
+          onChange= { handleChange }
         />
       </label>
     </fieldset>
@@ -37,4 +44,4 @@ class PersonalData extends React.Component {
   }
 }
 
-export default PersonalData;
+export default PersonalForm;

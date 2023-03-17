@@ -3,11 +3,7 @@ import Form from './Form';
 
 class App extends React.Component {
   render() {
-    return (
-      <>
-        <Form />
-      </>
-    );
+    return <Form />
   }
 }
 
