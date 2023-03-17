@@ -1,7 +1,8 @@
 import React from "react";
-import PersonalForm from "./Components/PersonalForm";
 import AddressForm from "./Components/AddressForm";
 import handleValue from "./utils/handleValue";
+import PersonalForm from "./Components/PersonalForm";
+import ProfessionalForm from "./Components/ProfessionalForm";
 
 class Form extends React.Component {
   constructor() {
@@ -58,6 +59,10 @@ class Form extends React.Component {
         onChange={ this.handleChange }
         onBlur={ this.handleBlur } 
         formState={ this.state } 
+        />
+        <ProfessionalForm 
+          onChange={ this.handleChange } 
+          formState={ this.state } 
         />
       </form>
     )
