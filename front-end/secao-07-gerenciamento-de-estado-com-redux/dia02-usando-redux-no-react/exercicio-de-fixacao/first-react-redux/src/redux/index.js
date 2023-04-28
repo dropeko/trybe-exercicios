@@ -1,14 +1,14 @@
 // ./src/redux/index.js
 import { legacy_createStore as createStore } from 'redux';
 import { composeWithDevTools } from '@redux-devtools/extension';
+import { counterReducer } from './reducers/counterReducer';
 
-const INITIAL_STATE = { count: 0 };
+// const action = { 
+//   type: 'INCREMENT_COUNTER',
+//   payload: 10
+// } 
 
-const reducer = (state = INITIAL_STATE, action) => {
-  return state
-};
-
-const store = createStore(reducer, composeWithDevTools());
+const store = createStore(counterReducer, composeWithDevTools());
 
 export default store;
 
