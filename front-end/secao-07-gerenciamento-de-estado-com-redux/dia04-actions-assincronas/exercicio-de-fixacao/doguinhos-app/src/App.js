@@ -8,10 +8,16 @@ class App extends React.Component {
   render() {
     const { isFetching, imageURL, dispatch } = this.props;
 
-    if (isFetching) return <p>Carregando...</p>;
+    if (isFetching) return (
+      <>
+        <h1>Clique e receba um Doguinho aleatório</h1>
+        <p>Carregando...</p>
+      </>
+    );
 
     return (
       <div>
+        <h1>Clique e receba um Doguinho aleatório</h1>
         <button
           onClick={() => { dispatch(fetchDogImage()) }}
           type="button"
