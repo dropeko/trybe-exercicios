@@ -1,0 +1,12 @@
+# Todo arquivo docker-compose.yaml deve iniciar com a chave version. Dessa maneira, definimos qual versão deverá ser utilizada pelo Compose para interpretar o arquivo, evitando assim que o docker-compose.yaml fique incompatível com versões mais recentes da ferramenta.''
+# Aqui utilizaremos a versão 3 do Compose. Sendo assim, nosso arquivo docker-compose.yaml começa da seguinte maneira:
+version: '3'
+
+# No Compose existe o conceito de services. Logo, vamos configurar nosso arquivo Compose com os três serviços que citamos acima.
+services:
+  frontend:
+    [...]
+  backend:
+    [...]
+  database:
+    [...]
