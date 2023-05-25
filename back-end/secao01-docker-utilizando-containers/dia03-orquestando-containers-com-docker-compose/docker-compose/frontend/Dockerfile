@@ -1,4 +1,4 @@
-FROM betrybe/docker-compose-example-frontend:v1
+FROM betrybe/docker-compose-example-frontend:v2
 
 ENTRYPOINT ["npm"]
 

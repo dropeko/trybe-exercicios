@@ -1,25 +1,21 @@
-# Todo arquivo docker-compose.yaml deve iniciar com a chave version. Dessa maneira, definimos qual versão deverá ser utilizada pelo Compose para interpretar o arquivo, evitando assim que o docker-compose.yaml fique incompatível com versões mais recentes da ferramenta.''
-# Aqui utilizaremos a versão 3 do Compose. Sendo assim, nosso arquivo docker-compose.yaml começa da seguinte maneira:
-version: '3'
-
-# No Compose existe o conceito de services. Logo, vamos configurar nosso arquivo Compose com os três serviços que citamos acima.
+version: "3"
 services:
   frontend:
-    build: frontend/    # Especificamos o contexto, ou seja, a pasta onde está o Dockerfile.
+    build: frontend/
     restart: on-failure
     ports:
       - 3000:3000
     depends_on:
       - backend
   backend:
-    build: backend/     # Mesmo caso aqui.
+    build: backend/
     restart: on-failure
     ports:
       - 3001:3001
     environment:
       - DB_HOST=database
-  depends_on:
+    depends_on:
       - database
   database:
-    image: betrybe/docker-compose-example-database:v1    # Especificamos a Imagem Docker diretamente.
+    image: betrybe/docker-compose-example-database:v1
     restart: on-failure
