@@ -1,4 +1,4 @@
-# Trybe
+# Trybe :rocket:
 
 # trybe-exercicios
 
