@@ -20,4 +20,4 @@ SELECT Name AS 'Nome do Projeto', Hours AS 'Tempo de Trabalho' FROM Projects;
 
 # 7 - Escreva uma query para exibir o nome dos cientistas em ordem alfabética.
 SELECT Name AS 'Nome Cientista' FROM Scientists
-ORDER BY Name ASC;
+ORDER BY Name;
