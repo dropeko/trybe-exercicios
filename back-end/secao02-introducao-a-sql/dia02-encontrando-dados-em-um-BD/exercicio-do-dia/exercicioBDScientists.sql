@@ -8,3 +8,6 @@ SELECT Name AS 'Nome Cientista', SSN AS 'Scientist Number' FROM Scientists LIMIT
 
 # 3 - Escreva uma query para exibir a soma dos números 10 e 15.
 SELECT 10 + 15 AS 'Soma';
+
+# 4 - Escreva uma query para exibir o resultado de uma expressão aritmética qualquer.
+SELECT (3 * 4) + 12;
