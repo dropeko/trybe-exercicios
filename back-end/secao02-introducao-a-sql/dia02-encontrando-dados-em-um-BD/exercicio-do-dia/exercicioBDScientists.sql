@@ -13,4 +13,7 @@ SELECT 10 + 15 AS 'Soma';
 SELECT (3 * 4) + 12;
 
 # 5 - Escreva uma query para exibir todas as informações de todos os cientistas.
-SELECT Name AS 'Nome Cientista', SSN AS 'Scientist Number' FROM Scientists
+SELECT Name AS 'Nome Cientista', SSN AS 'Scientist Number' FROM Scientists;
+
+# 6 - Escreva uma query para exibir o nome como “Nome do Projeto” e as horas como “Tempo de Trabalho” de cada projeto.
+SELECT Name AS 'Nome do Projeto', Hours AS 'Tempo de Trabalho' FROM Projects;
