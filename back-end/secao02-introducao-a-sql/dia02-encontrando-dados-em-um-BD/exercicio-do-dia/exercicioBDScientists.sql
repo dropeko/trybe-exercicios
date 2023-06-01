@@ -11,3 +11,6 @@ SELECT 10 + 15 AS 'Soma';
 
 # 4 - Escreva uma query para exibir o resultado de uma expressão aritmética qualquer.
 SELECT (3 * 4) + 12;
+
+# 5 - Escreva uma query para exibir todas as informações de todos os cientistas.
+SELECT Name AS 'Nome Cientista', SSN AS 'Scientist Number' FROM Scientists
