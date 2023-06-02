@@ -23,3 +23,4 @@ SELECT DAY(payment_date) FROM sakila.payment; -- Dia
 SELECT HOUR(payment_date) FROM sakila.payment; -- Hora
 SELECT MINUTE(payment_date) FROM sakila.payment; -- Minuto
 SELECT SECOND(payment_date) FROM sakila.payment; -- Segundo
+
