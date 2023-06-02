@@ -24,12 +24,12 @@ INSERT INTO actor(first_name, last_name)
     LIMIT 5;
 
 # 4 - Cadastre três categorias de uma vez só na tabela sakila.category.
-INSERT INTO category (name)
+INSERT INTO category(name)
 VALUES
     ('Sci-Fi'),
     ('Fantasy'),
     ('Biography');
 
 # 5 - Cadastre uma nova loja na tabela sakila.store.
-INSERT INTO sakila.store (manager_staff_id, address_id)
+INSERT INTO store(manager_staff_id, address_id)
 VALUES (3, 3);
