@@ -34,7 +34,36 @@ WHERE id = 3;
 
 SELECT * FROM movies;
 
-# 5 - 
+# 5 - Insira as novas classificações abaixo na tabela box_office, lembre-se que a coluna movie_id é uma foreign key referente a coluna id da tabela movies:
+INSERT INTO box_office(movie_id, rating, domestic_sales, international_sales)
+  VALUES (8, 8.5, 300000000, 250000000),
+         (10, 7.4, 460000000, 510000000),
+         (11, 9.9, 290000000, 280000000);
+
+SELECT * FROM box_office;
+
+# 6 - Exclua da tabela movies o filme “WALL-E”.
+DELETE FROM box_office
+WHERE movie_id = 11; -- este é o id do filme WALL-E
+
+# 7 - Exclua da tabela movies todos os filmes dirigidos por “Andrew Stanton”.
+-- primeiro é utilizada essa query para selecionar os ids dos filmes a serem excluídos (2 e 9)
+SELECT id FROM movies
+WHERE director = 'Andrew Stanton';
+
+DELETE FROM box_office
+WHERE movie_id IN (2, 9);
+
+DELETE FROM movies
+WHERE director = 'Andrew Stanton';
+
+
+
+
+
+
+
+
 
 
 
