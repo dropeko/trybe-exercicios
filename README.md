@@ -1,4 +1,4 @@
-# Trybe :rocket:
+# Trybe Web Development :rocket:
 
 ## trybe-exercicios
 
