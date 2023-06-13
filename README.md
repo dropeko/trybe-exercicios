@@ -1,6 +1,6 @@
 # Trybe Web Development :rocket:
 
-## trybe-exercicios
+## Trybe-exercicios
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por [Pedro Henrique Coli Andrade](https://www.linkedin.com/in/pedro-henrique-coli-andrade-188210242_) enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
