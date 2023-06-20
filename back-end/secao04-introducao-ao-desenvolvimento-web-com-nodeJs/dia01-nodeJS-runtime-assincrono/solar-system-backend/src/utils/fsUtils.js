@@ -11,7 +11,7 @@ async function readMissionData() {
     const data = await readFile(path.resolve(__dirname, MISSIONS_DATA_PATH));
     // Como sabemos que o arquivo de leitura é um JSON, vamos 'traduzi-lo' com a linha abaixo
     const missions =  JSON.parse(data)
-    
+
     return missions
   } catch(error) {
     console.log(error.message);
@@ -25,7 +25,8 @@ async function writeMissionData(newMission) {
     const oldMissions = await readMissionData();
     // Depois de ler o arquivo, criamos um array que recebe o arquivo 'antigo', o distruibuimos em array com SPREAD OPERATOR e, em seguida, adicionamos a nova missão
     // TEM que converter em STRING pois é em string que a gente escreve nos arquivos. Função JSON.stringfy()
-    const allMissions = JSON.stringify([...oldMissions, newMission]);
+    // Aqui cria/define o ID das informações carregadas ao arquivo JSON
+    const allMissions = JSON.stringify([...oldMissions, { id: Date.now(), ...newMission }]);
     // ESCREVENDO no arquivo JSON lido acima.
     await writeFile(path.resolve(__dirname, MISSIONS_DATA_PATH), allMissions)
 
