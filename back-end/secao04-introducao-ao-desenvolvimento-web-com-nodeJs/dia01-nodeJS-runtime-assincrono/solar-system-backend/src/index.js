@@ -14,9 +14,9 @@ async function main() {
   // O id não de linha de comando
   // Não é a entidade quem cria o id, é quem GUARDA a informação
   const name = question('Qual o nome da Missão?: ')
-  const year = readLine.questionInt('Qual o ano da Missão?: ')
-  const country = readLine.question('Qual o país da Missão?: ')
-  const destination = readLine.question('Qual o destino da Missão?: ')
+  const year = questionInt('Qual o ano da Missão?: ')
+  const country = question('Qual o país da Missão?: ')
+  const destination = question('Qual o destino da Missão?: ')
 
   // Guarda as informações em uma variavel no formato necessário para escrever no arquivo JSON
   const newMission = { name, year, country, destination };
