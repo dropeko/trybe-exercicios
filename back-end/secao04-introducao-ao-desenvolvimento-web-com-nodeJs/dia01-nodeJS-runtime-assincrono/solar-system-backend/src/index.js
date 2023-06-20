@@ -1,8 +1,13 @@
-const { readMissionData } = require("./utils/fsUtils");
+const { writeMissionData } = require("./utils/fsUtils");
 
 async function main() {
-  const data = await readMissionData()
-  console.log(data);
+  writeMissionData({
+    "id": 101,
+    "name": "Tryber 2",
+    "year": "2023",
+    "country": "Brasil",
+    "destination": "Lua"
+  })
 }
 
 main();
