@@ -39,6 +39,14 @@ app.delete('/teams/:id', existingId, (req, res) => {
 
 // Arranja os middlewares para chamar validateTeam primeiro
 app.post('/teams', validateTeam, (req, res) => {
+  // confere se a sigla proposta está inclusa nos times autorizados
+  // confere se já não existe um time com essa sigla
+  if (
+      !req.teams.teams.includes(req.body.sigla)
+      && teams.every((team) => team.sigla !== req.body.sigla)
+    ) {
+    return res.status(422).json({ message: 'Já existe um time com essa sigla' });
+  }
   const team = { id: nextId, ...req.body };
   teams.push(team);
   nextId += 1;
