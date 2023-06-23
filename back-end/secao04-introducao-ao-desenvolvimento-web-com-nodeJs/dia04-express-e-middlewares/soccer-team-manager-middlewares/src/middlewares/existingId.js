@@ -1,12 +1,12 @@
 const teams = require('../utils/teams');
 
 const existingId = (req, res, next) => {
-  const checkTeamExists = Number(req.params.id);
+  const { id } = req.params;
 
-  if (teams.some((team) => team.id === checkTeamExists)) {
-    return next();
+  if (!teams.some((team) => team.id === id)) {
+    return res.sendStatus(404).json({ message: 'Time não encontrado' });
   }
-  res.sendStatus(404);
+  next();
 };
 
 module.exports = existingId;
