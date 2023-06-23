@@ -3,6 +3,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const cors = require('cors');
+const helmet = require('helmet');
 const validateTeam = require('./middlewares/validateTeam');
 const existingId = require('./middlewares/existingId');
 const apiCredentials = require('./middlewares/apiCredentials');
@@ -17,6 +18,7 @@ let nextId = 3;
 app.use(express.json());
 app.use(cors());
 app.use(morgan('dev'));
+app.use(helmet());
 app.use(apiCredentials); 
 app.use(express.static('./images'));
 
