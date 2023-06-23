@@ -4,18 +4,22 @@ const express = require('express');
 const teams = require('./utils/teams');
 const validateTeam = require('./middlewares/validateTeam');
 const existingId = require('./middlewares/existingId');
+require('express-async-errors');
+const apiCredentials = require('./middlewares/apiCredentials');
 
 const app = express();
 
 let nextId = 3;
 
 app.use(express.json());
+app.use(apiCredentials); 
 
 app.get('/teams', (req, res) => res.json(teams));
 
 app.get('/teams/:id', existingId, (req, res) => {
   const id = Number(req.params.id);
   const team = teams.find((t) => t.id === id);
+
   if (team) {
     res.json(team);
   } else {
