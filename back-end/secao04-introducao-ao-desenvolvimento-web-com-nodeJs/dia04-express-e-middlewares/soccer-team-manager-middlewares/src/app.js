@@ -1,18 +1,22 @@
 // src/app.js
 
 const express = require('express');
-const teams = require('./utils/teams');
+const morgan = require('morgan');
 const validateTeam = require('./middlewares/validateTeam');
 const existingId = require('./middlewares/existingId');
-require('express-async-errors');
 const apiCredentials = require('./middlewares/apiCredentials');
+const teams = require('./utils/teams');
+require('express-async-errors');
 
 const app = express();
 
 let nextId = 3;
 
+// cria um middleware que processa corpos de requisições escritos em JSON
 app.use(express.json());
 app.use(apiCredentials); 
+app.use(morgan('dev'));
+app.use(express.static('./images'));
 
 app.get('/teams', (req, res) => res.json(teams));
 
