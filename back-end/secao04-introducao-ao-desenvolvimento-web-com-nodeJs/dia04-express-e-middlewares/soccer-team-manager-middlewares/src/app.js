@@ -2,6 +2,7 @@
 
 const express = require('express');
 const morgan = require('morgan');
+const cors = require('cors');
 const validateTeam = require('./middlewares/validateTeam');
 const existingId = require('./middlewares/existingId');
 const apiCredentials = require('./middlewares/apiCredentials');
@@ -14,8 +15,9 @@ let nextId = 3;
 
 // cria um middleware que processa corpos de requisições escritos em JSON
 app.use(express.json());
-app.use(apiCredentials); 
+app.use(cors());
 app.use(morgan('dev'));
+app.use(apiCredentials); 
 app.use(express.static('./images'));
 
 app.get('/teams', (req, res) => res.json(teams));
