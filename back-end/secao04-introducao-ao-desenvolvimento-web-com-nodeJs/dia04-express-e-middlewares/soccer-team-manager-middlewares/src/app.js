@@ -4,6 +4,7 @@ const express = require('express');
 const morgan = require('morgan');
 const cors = require('cors');
 const helmet = require('helmet');
+const rateLimit = require('express-rate-limit');
 const validateTeam = require('./middlewares/validateTeam');
 const existingId = require('./middlewares/existingId');
 const apiCredentials = require('./middlewares/apiCredentials');
@@ -14,11 +15,19 @@ const app = express();
 
 let nextId = 3;
 
+// Configuramos um limitador para uma taxa máxima de 100 requisições em um intervalo de 15 minutos
+const limiter = rateLimit({
+  max: 100, // número máximo de requisições
+  windowMs: 15 * 60 * 1000, // intervalo de tempo, em milissegundos, para atingir o número máximo de requisições
+  message: 'Muitas requisições originadas desta IP', // mensagem personalizada quando atinge o limit rate
+});
+
 // cria um middleware que processa corpos de requisições escritos em JSON
 app.use(express.json());
 app.use(cors());
 app.use(morgan('dev'));
 app.use(helmet());
+app.use(limiter);
 app.use(apiCredentials); 
 app.use(express.static('./images'));
 
