@@ -24,4 +24,13 @@ services:
       MYSQL_PASSWORD: password
       MYSQL_PORT: 3306
       MYSQL_HOST: database # Nome do service que será utilizado para o banco de dados
-      PORT: 3001
+  database:
+    image: mysql:8.0.29
+    container_name: trybecar_db
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: trybecardb
+    ports:
+      - 33060:3306
+    volumes:
+      - ./:/docker-entrypoint-initdb.d
