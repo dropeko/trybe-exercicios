@@ -66,7 +66,24 @@ const insert = async (travel) => {
   return insertId;
 };
 
+const findByStatus = async (travelStatusId) => {
+  const [travels] = await connection.execute(`SELECT
+    TR.id,
+    TR.driver_id,
+    TR.starting_address,
+    TR.ending_address,
+    TR.request_date,
+    COUNT(WP.stop_order) AS amount_stop
+  FROM travels AS TR LEFT JOIN waypoints AS WP 
+    ON WP.travel_id = TR.id
+  WHERE TR.travel_status_id = ?
+  GROUP BY TR.id;`, [travelStatusId]);
+
+  return camelize(travels);
+};
+
 module.exports = {
   findById,
   insert,
+  findByStatus,
 };
