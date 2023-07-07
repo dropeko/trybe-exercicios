@@ -30,6 +30,12 @@ const createCar = async ({ model, licensePlate, year, color, driverId }) => {
   return { status: 'SUCCESSFUL', data: newCar };
 };
 
+const findAll = async () => {
+  const cars = await carModel.findAll();
+  return { status: 'SUCCESSFUL', data: cars };
+};
+
 module.exports = {
   createCar,
+  findAll,
 };
