@@ -16,6 +16,19 @@ const requestTravel = async (travelDataObject) => {
   return { status: 'SUCCESSFUL', data: newTravel };
 };
 
+const getOpenTravels = async () => {
+  const WAITING_DRIVER = 1;
+
+  let data = await travelModel.findByStatus(WAITING_DRIVER);
+
+  if (!data || data.length === 0) {
+    data = { message: 'There are no open trips' };
+  }
+
+  return { status: 'SUCCESSFUL', data };
+};
+
 module.exports = {
   requestTravel,
+  getOpenTravels,
 };

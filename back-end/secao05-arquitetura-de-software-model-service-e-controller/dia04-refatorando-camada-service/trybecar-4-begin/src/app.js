@@ -1,37 +1,32 @@
 const express = require('express');
-const { travelModel, passengerModel } = require('./models');
+const { travelModel } = require('./models');
+const { travelService } = require('./services');
 
 const app = express();
 
 app.use(express.json());
 
-const passengerExists = async (passengerId) => {
-  const passenger = await passengerModel.findById(passengerId);
-  return passenger || false;
-};
-
 app.post('/passengers/:passengerId/request/travel', async (req, res) => {
   const { passengerId } = req.params;
-  const { startingAddress, endingAddress, waypoints } = req.body;
+  const travelData = { passengerId, ...req.body };
 
-  const passenger = await passengerExists(passengerId);
-  if (!passenger) return res.status(404).json({ message: 'Passenger not found' });
+  const serviceResponse = await travelService.requestTravel(travelData);
 
-  const travelId = await travelModel.insert({
-    passengerId,
-    startingAddress,
-    endingAddress,
-    waypoints,
-  });
-  const newTravel = await travelModel.findById(travelId);
+  if (serviceResponse.status !== 'SUCCESSFUL') {
+    return res.status(422).json({ message: serviceResponse.data });
+  }
 
-  return res.status(201).json(newTravel);
+  return res.status(200).json(serviceResponse.data);
 });
 
 app.get('/drivers/open/travels', async (_req, res) => {
-  const WAITING_DRIVER = 1;
-  const openTravelsFromDB = await travelModel.findByStatus(WAITING_DRIVER);
-  res.status(200).json(openTravelsFromDB);
+  const serviceResponse = await travelService.getOpenTravels();
+
+  if (serviceResponse.status !== 'SUCCESSFUL') {
+    return res.status(422).json({ message: serviceResponse.data });
+  }
+
+  res.status(200).json((serviceResponse).data);
 });
 
 app.patch('/drivers/:driverId/travels/:travelId', async (req, res) => {
