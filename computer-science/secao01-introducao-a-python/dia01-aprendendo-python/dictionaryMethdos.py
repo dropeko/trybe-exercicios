@@ -28,6 +28,6 @@ for key, valor in freq_dict.items():
     print(f"{key} : {valor}")
 
 # Saída
-20: 2
-1: 1
-2: 1
+# 20: 2
+# 1: 1
+# 2: 1
