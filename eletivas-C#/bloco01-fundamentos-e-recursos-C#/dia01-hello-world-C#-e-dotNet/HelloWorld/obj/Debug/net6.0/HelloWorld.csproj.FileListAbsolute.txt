@@ -1,0 +1,15 @@
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/HelloWorld/bin/Debug/net6.0/HelloWorld
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/HelloWorld/bin/Debug/net6.0/HelloWorld.deps.json
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/HelloWorld/bin/Debug/net6.0/HelloWorld.runtimeconfig.json
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/HelloWorld/bin/Debug/net6.0/HelloWorld.dll
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/HelloWorld/bin/Debug/net6.0/ref/HelloWorld.dll
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/HelloWorld/bin/Debug/net6.0/HelloWorld.pdb
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/HelloWorld/obj/Debug/net6.0/HelloWorld.csproj.AssemblyReference.cache
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/HelloWorld/obj/Debug/net6.0/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/HelloWorld/obj/Debug/net6.0/HelloWorld.AssemblyInfoInputs.cache
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/HelloWorld/obj/Debug/net6.0/HelloWorld.AssemblyInfo.cs
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/HelloWorld/obj/Debug/net6.0/HelloWorld.csproj.CoreCompileInputs.cache
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/HelloWorld/obj/Debug/net6.0/HelloWorld.dll
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/HelloWorld/obj/Debug/net6.0/ref/HelloWorld.dll
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/HelloWorld/obj/Debug/net6.0/HelloWorld.pdb
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/HelloWorld/obj/Debug/net6.0/HelloWorld.genruntimeconfig.cache
