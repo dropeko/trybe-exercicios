@@ -1,0 +1,15 @@
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/LampCalculator/bin/Debug/net6.0/LampCalculator
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/LampCalculator/bin/Debug/net6.0/LampCalculator.deps.json
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/LampCalculator/bin/Debug/net6.0/LampCalculator.runtimeconfig.json
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/LampCalculator/bin/Debug/net6.0/LampCalculator.dll
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/LampCalculator/bin/Debug/net6.0/ref/LampCalculator.dll
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/LampCalculator/bin/Debug/net6.0/LampCalculator.pdb
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/LampCalculator/obj/Debug/net6.0/LampCalculator.csproj.AssemblyReference.cache
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/LampCalculator/obj/Debug/net6.0/LampCalculator.GeneratedMSBuildEditorConfig.editorconfig
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/LampCalculator/obj/Debug/net6.0/LampCalculator.AssemblyInfoInputs.cache
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/LampCalculator/obj/Debug/net6.0/LampCalculator.AssemblyInfo.cs
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/LampCalculator/obj/Debug/net6.0/LampCalculator.csproj.CoreCompileInputs.cache
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/LampCalculator/obj/Debug/net6.0/LampCalculator.dll
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/LampCalculator/obj/Debug/net6.0/ref/LampCalculator.dll
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/LampCalculator/obj/Debug/net6.0/LampCalculator.pdb
+/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco01-fundamentos-e-recursos-C#/dia01-hello-world-C#-e-dotNet/LampCalculator/obj/Debug/net6.0/LampCalculator.genruntimeconfig.cache
