@@ -1,4 +1,5 @@
-﻿class Program
+﻿// Class Program
+class Program
 {
   public int[] expensesCost;
   static void Main(string[] args)
