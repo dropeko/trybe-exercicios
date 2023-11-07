@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "xawIiB8G34LgSC/jHjJN/GDJiIAspQ9IImPEVVbwutAyfB3OLDX5Y/QzsSjXu1w4zYifWEhJtsFQE3hWAHzJqw==",
+  "success": true,
+  "projectFilePath": "/home/phca/TRYBE-2023/trybe-exercicios/trybe-exercicios/eletivas-C#/bloco03-api-C#-web/dia01-asp-net/MyFirstAPI/MyFirstAPI.csproj",
+  "expectedPackageFiles": [
+    "/home/phca/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/phca/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/phca/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/home/phca/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/home/phca/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/home/phca/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
