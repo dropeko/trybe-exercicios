@@ -1,4 +1,4 @@
-// simple coment to Daily
+// simple coment to Daily Commit
 namespace MyFirstAPI;
 
 public class WeatherForecast
