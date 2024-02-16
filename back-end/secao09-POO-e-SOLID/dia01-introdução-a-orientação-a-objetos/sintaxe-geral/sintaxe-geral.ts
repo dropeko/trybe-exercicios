@@ -1,4 +1,4 @@
-// Hello, World em POO
+// Hello, World em POO.
 
 // Criação da classe
 class Tv {
