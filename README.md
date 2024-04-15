@@ -1,4 +1,4 @@
-# Trybe Web Development :rocket:
+# Trybe Web Development
 
 ## Trybe-exercicios
 
